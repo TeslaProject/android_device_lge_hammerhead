@@ -126,6 +126,7 @@ BOARD_SEPOLICY_UNION += \
        device.te \
        domain.te \
        file.te \
+       healthd.te \
        hostapd.te \
        irsc_util.te \
        mediaserver.te \
@@ -136,6 +137,7 @@ BOARD_SEPOLICY_UNION += \
        radio.te \
        rild.te \
        rmt.te \
+       sdcardd.te \
        sensors.te \
        ssr.te \
        surfaceflinger.te \
