@@ -117,7 +117,7 @@ TARGET_KERNEL_CONFIG := validus_hammerhead_defconfig
 TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
 
 # Custom Kernel Toolchain
-# TARGET_GCC_VERSION_ARM := arm-eabi-4.8-sm
+# TARGET_GCC_VERSION_ARM := 4.8-sm
 
 # Clang optimizations
 VALIDUS4LIFE := true
