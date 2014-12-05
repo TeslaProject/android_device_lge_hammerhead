@@ -116,6 +116,9 @@ BOARD_SEPOLICY_DIRS += \
 TARGET_KERNEL_CONFIG := validus_hammerhead_defconfig
 TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
 
+# Clang optimizations
+VALIDUS4LIFE := true
+
 # The list below is order dependent
 BOARD_SEPOLICY_UNION += \
        app.te \
