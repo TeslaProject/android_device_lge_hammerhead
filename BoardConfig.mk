@@ -120,7 +120,7 @@ TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
 # TARGET_GCC_VERSION_ARM := 4.8-sm
 
 # Clang optimizations
-VALIDUS4LIFE := true
+SYMMETRY := true
 
 # The list below is order dependent
 BOARD_SEPOLICY_UNION += \
