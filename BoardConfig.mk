@@ -113,11 +113,11 @@ BOARD_SEPOLICY_DIRS += \
        device/lge/hammerhead/sepolicy
 
 # Define kernel config for inline building
-TARGET_KERNEL_CONFIG := validus_hammerhead_defconfig
+TARGET_KERNEL_CONFIG := wicked_hammerhead_defconfig
 TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
 
 # Custom Kernel Toolchain
-# TARGET_GCC_VERSION_ARM := 4.8-sm
+TARGET_GCC_VERSION_ARM := 4.8-linaro
 
 # Clang optimizations
 SYMMETRY := true
