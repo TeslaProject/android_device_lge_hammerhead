@@ -117,7 +117,7 @@ TARGET_KERNEL_CONFIG := cyanogenmod_hammerhead_defconfig
 TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
 
 # Custom Kernel Toolchain
-TARGET_GCC_VERSION_ARM := 4.8-linaro
+TARGET_GCC_VERSION_ARM := 4.8-sm
 
 # Clang optimizations
 SYMMETRY := true
