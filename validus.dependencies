@@ -7,20 +7,8 @@
  },
  {
    "remote":      "gh",
-   "repository":  "TheLoonyBin/proprietary_vendor_lge",
-   "target_path": "vendor/lge",
-   "branch":      "lp5.0"
- },
- {
-   "remote":      "gh",
-   "repository":  "TheLoonyBin/proprietary_vendor_broadcom",
-   "target_path": "vendor/broadcom",
-   "branch":      "lp5.0"
- },
- {
-   "remote":      "gh",
-   "repository":  "TheLoonyBin/proprietary_vendor_qcom",
-   "target_path": "vendor/qcom",
-   "branch":      "lp5.0"
+   "repository":  "CyanogenMod/android_device_qcom_common",
+   "target_path": "device/qcom/common",
+   "branch":      "cm-12.0"
  }
 ]
