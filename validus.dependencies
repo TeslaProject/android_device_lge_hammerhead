@@ -1,14 +1,26 @@
 [
  {
-   "remote": "gh",
-   "repository":  "AD5GB/android_kernel_lge_hammerhead",
+   "remote":      "gh",
+   "repository":  "AD5GB/kernel_lge_hammerhead",
    "target_path": "kernel/lge/hammerhead",
-   "revision":      "Wicked-LP"
+   "branch":      "Wicked-f2fs"
  },
  {
-   "remote": "gh",
-   "repository": "TheMuppets/proprietary_vendor_lge",
+   "remote":      "gh",
+   "repository":  "TheLoonyBin/proprietary_vendor_lge",
    "target_path": "vendor/lge",
-   "revision": "cm-12.0"
+   "branch":      "lp5.0"
+ },
+ {
+   "remote":      "gh",
+   "repository":  "TheLoonyBin/proprietary_vendor_broadcom",
+   "target_path": "vendor/broadcom",
+   "branch":      "lp5.0"
+ },
+ {
+   "remote":      "gh",
+   "repository":  "TheLoonyBin/proprietary_vendor_qcom",
+   "target_path": "vendor/qcom",
+   "branch":      "lp5.0"
  }
 ]
