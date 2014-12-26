@@ -117,10 +117,10 @@ TARGET_KERNEL_CONFIG := cyanogenmod_hammerhead_defconfig
 TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
 
 # Custom Kernel Toolchain
-TARGET_GCC_VERSION_ARM := 4.8-sm
+##TARGET_GCC_VERSION_ARM := 4.8-sm
 
-# Clang optimizations
-SYMMETRY := true
+# Graphite optimizations
+##SYMMETRY := true
 
 # The list below is order dependent
 BOARD_SEPOLICY_UNION += \
