@@ -122,6 +122,7 @@ TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
 # Graphite optimizations
 SYMMETRY := true
 GRAPHITE_OPTS := true
+STRICT_ALIASING := false
 
 # The list below is order dependent
 BOARD_SEPOLICY_UNION += \
