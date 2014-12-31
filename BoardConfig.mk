@@ -117,7 +117,7 @@ TARGET_KERNEL_CONFIG := wicked_hammerhead_defconfig
 TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
 
 # Custom Kernel Toolchain
-##TARGET_GCC_VERSION_ARM := 4.8-sm
+TARGET_GCC_VERSION_ARM := 4.9-linaro
 
 # Graphite optimizations
 SYMMETRY := true
