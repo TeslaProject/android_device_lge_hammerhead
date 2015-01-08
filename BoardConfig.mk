@@ -124,6 +124,9 @@ SYMMETRY := true
 GRAPHITE_OPTS := true
 STRICT_ALIASING := false
 
+# Create changelog
+VALIDUS_CHANGELOG := true
+
 # The list below is order dependent
 BOARD_SEPOLICY_UNION += \
        app.te \
