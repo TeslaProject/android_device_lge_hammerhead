@@ -1,9 +1,9 @@
 [
  {
    "remote":      "gh",
-   "repository":  "franciscofranco/hammerhead",
+   "repository":  "AD5GB/android_kernel_lge_hammerhead",
    "target_path": "kernel/lge/hammerhead",
-   "branch":      "lollipop"
+   "branch":      "Wicked-LP-f2fs"
  },
  {
    "remote":      "gh",
