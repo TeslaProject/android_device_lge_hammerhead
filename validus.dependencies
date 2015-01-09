@@ -1,9 +1,9 @@
 [
  {
    "remote":      "gh",
-   "repository":  "faux123/Nexus_5",
+   "repository":  "AD5GB/android_kernel_lge_hammerhead",
    "target_path": "kernel/lge/hammerhead",
-   "branch":      "lp_rel"
+   "branch":      "Wicked-LP-f2fs"
  },
  {
    "remote":      "gh",
