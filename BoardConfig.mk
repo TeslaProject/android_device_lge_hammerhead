@@ -127,6 +127,9 @@ STRICT_ALIASING := false
 # Create changelog
 VALIDUS_CHANGELOG := true
 
+# Multi-rom?
+NO_BLOCK_OTA := true
+
 # The list below is order dependent
 BOARD_SEPOLICY_UNION += \
        app.te \
