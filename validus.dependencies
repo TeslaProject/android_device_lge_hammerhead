@@ -12,6 +12,12 @@
    "branch":      "cm-12.0"
  },
  {
+   "remote":      "gh",
+   "repository":  "TheMuppets/proprietary_vendor_broadcom",
+   "target_path": "vendor/broadcom",
+   "branch":      "cm-12.0"
+ },
+ {
    "remote": "gh",
    "repository": "TheMuppets/proprietary_vendor_lge",
    "target_path": "vendor/lge",
