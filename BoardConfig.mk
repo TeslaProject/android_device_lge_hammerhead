@@ -112,6 +112,9 @@ BOARD_SEPOLICY_DIRS += \
 TARGET_KERNEL_CONFIG := wicked_hammerhead_defconfig
 TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
 
+# Alternate Toolchain
+TARGET_GCC_VERSION_EXP := 4.9
+
 # Custom Kernel Toolchain
 TARGET_GCC_VERSION_ARM := 4.9-linaro
 
