@@ -113,14 +113,14 @@ TARGET_KERNEL_CONFIG := wicked_hammerhead_defconfig
 TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
 
 # Alternate Toolchain
-##TARGET_GCC_VERSION_EXP := 4.9
+TARGET_GCC_VERSION_EXP := 4.9
 
 # Custom Kernel Toolchain
 TARGET_GCC_VERSION_ARM := 4.9-linaro
 
 # Graphite optimizations
 SYMMETRY := true
-GRAPHITE_OPTS := true
+GRAPHITE_OPTS := false
 STRICT_ALIASING := false
 
 # Create changelog
