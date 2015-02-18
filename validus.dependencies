@@ -1,9 +1,9 @@
 [
  {
    "remote":      "gh",
-   "repository":  "AD5GB/cm_kernel_lge_hammerhead",
+   "repository":  "AD5GB/google_kernel_hammerhead",
    "target_path": "kernel/lge/hammerhead",
-   "branch":      "test"
+   "branch":      "lp-f2fs"
  },
  {
    "remote":      "gh",
