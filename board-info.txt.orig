@@ -1,0 +1,6 @@
+require board=hammerhead
+<<<<<<< HEAD
+require version-bootloader=HHZ11k|HHZ12d
+=======
+require version-bootloader=HHZ12d
+>>>>>>> cm/cm-12.0
