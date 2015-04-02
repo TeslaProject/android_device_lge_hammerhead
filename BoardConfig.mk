@@ -116,15 +116,15 @@ TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
 ##TARGET_GCC_VERSION_EXP := 4.9
 
 # Custom Kernel Toolchain
-TARGET_GCC_VERSION_ARM := 4.9-linaro
+#TARGET_GCC_VERSION_ARM := 4.9-linaro
 
 # Graphite optimizations
-SYMMETRY := true
-GRAPHITE_OPTS := true
-STRICT_ALIASING := false
+#SYMMETRY := true
+#GRAPHITE_OPTS := true
+#STRICT_ALIASING := false
 
 # Create changelog
-VALIDUS_CHANGELOG := true
+#VALIDUS_CHANGELOG := true
 
 # Multi-rom?
 # NO_BLOCK_OTA := true
