@@ -110,6 +110,7 @@ BOARD_SEPOLICY_DIRS += \
 
 # Define kernel config for inline building
 TARGET_KERNEL_CONFIG := wicked_hammerhead_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_hammerhead_defconfig
 TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
 
 # Alternate Toolchain
