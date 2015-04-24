@@ -14,8 +14,19 @@
 # limitations under the License.
 #
 $(call inherit-product, device/lge/hammerhead/full_hammerhead.mk)
+PRODUCT_COPY_FILES := device/lge/hammerhead/apns-full-conf.xml:system/etc/apns-conf.xml
+
+# Inherit from the common Open Source product configuration
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 PRODUCT_NAME := aosp_hammerhead
+PRODUCT_DEVICE := hammerhead
+PRODUCT_BRAND := gootle
+PRODUCT_MODEL := Nexus 5
+PRODUCT_MANUFACTURER := LGE
+
+$(call inherit-product, device/lge/hammerhead/device.mk)
+$(call inherit-product-if-exists, vendor/lge/hammerhead/device-vendor.mk)
 
 PRODUCT_PACKAGES += \
     Launcher3
